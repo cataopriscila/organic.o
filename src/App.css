@@ -1,38 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
 .App {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  display: block;
+}
+
+section {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flex1 {
+  flex: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.justify {
+  text-align: justify;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.background {  
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.organicoTitle {
   color: white;
+  text-shadow: 2px 2px 4px black, -2px -2px 80px black;
 }
 
-.App-link {
-  color: #61dafb;
+.xlarge {
+  font-size: 6rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.large {
+  font-size: 3rem;
+}
+
+.theme-color {
+  background: #8d273e;
+}
+
+.light-theme-color {
+  background: rgba(141, 39, 62, 0.95);
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.marginTitle {
+  margin-right: 45vw;
+  margin-top: 30vh;
+}
+
+.cardShadow .card {
+  box-shadow: 20px 20px 50px 2px grey;
+}
+
+.blur {
+  background: transparent;
+  backdrop-filter: blur(3px);
+}
+
+.padding {
+  padding: 2rem;
+}
+
+.imgProfile {
+  border-radius: 50%;
+}
+
+.followUs {
+    padding-top: 6rem;    
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.imgSocial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgSocial img {
+  width: 5rem;
+  height: 5rem;
+  background-size: 75rem;
+  border: 0.875rem solid black;
+  border-radius: 50%;
+  padding: 0.75rem;
+  filter: invert(100%);
+  background: #72d8c1;
+}
+
+.fading {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 15vh;
+  top: 0px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.round {
+  border-radius: 1.875rem;
+}
+
+.round:focus {
+  background-color: rgba(226, 224, 224, 0.507);
+}
+
+.form-control.is-invalid {
+  background-image: none;
+  border: 1px solid #8d273e;
+}
+
+.btn-danger {
+  background-color: #8d273e;
+  border-color: #8d273e;
+}
+.description p {
+  font-size: 1.4rem;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
 }
