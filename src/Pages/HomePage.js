@@ -5,7 +5,7 @@ import FooterSection from "../Containers/FooterSection";
 import { Testimonials } from "../Components/Testimonials";
 
 
-export function LandingPage() {
+export function HomePage() {
   return (
     <div>
       <Header />
