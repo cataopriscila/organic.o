@@ -1,12 +1,16 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 import UnderConstruction from "../Images/underconstruction.gif";
 
 const About = () => {
     return (
         <section className="padding">
         <div className= "padding center flex1">
-        <h1 className="padding organicoTitle">This page is under construction</h1>
-        <img src={UnderConstruction} alt= "gif"/>
+        <Container className="padding">
+           <h1 className="padding organicoTitle">This page is under construction</h1>
+        <img src={UnderConstruction} alt= "gif"/> 
+        </Container>
+        
         </div>
         </section>
         
