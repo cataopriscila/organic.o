@@ -33,13 +33,13 @@ class NavBar extends Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Link  to="/login"><NavLink>Login</NavLink></Link>
+              <Link to="/login"><NavLink>Login</NavLink></Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/organic.o/signup">Sign Up</NavLink>
+            <Link to="/signup"><NavLink>Sign Up</NavLink></Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/organic.o/about">About Us</NavLink>
+            <Link to="/about"><NavLink>About Us</NavLink></Link>
             </NavItem>
           </Nav>
         </Collapse>
