@@ -11,6 +11,7 @@ import {
   Container,
   Row,
   CardDeck,
+  Col
 } from "reactstrap";
 
 export default function Signup() {
@@ -18,12 +19,14 @@ export default function Signup() {
     <>
       <Container className="padding">
         <Row className="padding center">
-          <h1>Sign Up Now</h1>
+        <Col>
+            <h1>Sign Up</h1>
+          </Col>          
         </Row>
         <Row className="center cardShadow">
           <CardDeck>
             <Card
-              className="light-theme-color"
+              className="light-theme-color round"
               body
               inverse
               style={{ borderColor: "none" }}

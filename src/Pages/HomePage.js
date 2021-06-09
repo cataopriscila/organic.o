@@ -1,11 +1,12 @@
-import { Header } from "../Components/Header";
+import { Header } from "../Elements/Header";
 import Description from "../Components/Description";
-import SignupSection from "../Containers/SignupSection";
-import FooterSection from "../Containers/FooterSection";
+import SignupSection from "../Sections/SignupSection";
+import FooterSection from "../Sections/FooterSection";
 import { Testimonials } from "../Components/Testimonials";
 
 
-export function HomePage() {
+
+function HomePage() {
   return (
     <div>
       <Header />
@@ -16,3 +17,5 @@ export function HomePage() {
     </div>
   );
 }
+
+export default HomePage;

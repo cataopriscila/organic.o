@@ -139,8 +139,21 @@ section {
   font-size: 1.4rem;
 }
 
-.footer ul {
+
+.footer ul {   
   display: flex;
   justify-content: space-around;
+  align-items: center;
   list-style-type: none;
+}
+
+.fixed {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+  /*color: antiquewhite;
+  text-shadow: 1px 1px 2px black;*/
+  background-color: rgba(255, 235, 205, 0.199);
 }

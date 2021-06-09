@@ -1,8 +1,12 @@
-import { LoginSection } from "../Containers/LoginSection";
+import Footer from "../Elements/Footer";
+import { LoginSection } from "../Sections/LoginSection";
 
 export function LoginPage () {
     return (
-        <LoginSection/>         
+        <>         
+        <LoginSection/>
+        <Footer isFixed= {true}/>
+        </>         
     )
 }
 

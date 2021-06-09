@@ -27,7 +27,7 @@ class NavBar extends Component {
   render() {
     return (
       <Navbar className="light-theme-color" dark fixed="top" expand="md">
-        <NavbarBrand href="/description">Organic.o</NavbarBrand>
+        <NavbarBrand href="/">Organic.o</NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
@@ -36,6 +36,9 @@ class NavBar extends Component {
             </NavItem>
             <NavItem>
               <NavLink href="/signup">Sign Up</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/about">About Us</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

@@ -1,7 +1,11 @@
-import { SignupSection } from "../Containers/SignupSection";
+import Footer from "../Elements/Footer";
+import SignupSection from "../Sections/SignupSection";
 
 export function SignupPage() {
-    return (
-        <SignupSection/>         
-    )
+  return (
+    <>
+      <SignupSection />
+      <Footer isFixed={true} />
+    </>
+  );
 }
