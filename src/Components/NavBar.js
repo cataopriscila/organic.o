@@ -27,18 +27,18 @@ class NavBar extends Component {
   render() {
     return (
       <Navbar className="light-theme-color" dark fixed="top" expand="md">
-        <NavbarBrand href="/">Organic.o</NavbarBrand>
+        <NavbarBrand href="/organic.o">Organic.o</NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/login">Login</NavLink>
+              <NavLink href="/organic.o/login">Login</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/signup">Sign Up</NavLink>
+              <NavLink href="/organic.o/signup">Sign Up</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/about">About Us</NavLink>
+              <NavLink href="/organic.o/about">About Us</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

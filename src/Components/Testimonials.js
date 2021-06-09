@@ -19,7 +19,7 @@ import Profile3 from "../Images/profile3.jpg";
 import Twitter from "../Images/twitter.svg";
 import Facebook from "../Images/facebook.svg";
 import Instagram from "../Images/instagram.svg";
-import { Link } from "react-router-dom";
+
 
 export function Testimonials() {
   return (
@@ -52,8 +52,10 @@ export function Testimonials() {
                       "It's an amazing tool that helped me find real fresh food
                       just around the corner!"
                     </CardText>
-                    <Link to="/signup"><Button color="danger">Follow</Button></Link>
-                                 </CardBody>
+                    <Button href="/organic.o/signup" color="danger">
+                      Follow
+                    </Button>
+                  </CardBody>
                 </Card>
               </Col>
 
@@ -75,7 +77,9 @@ export function Testimonials() {
                       "Now I can communicate directly with the customers and
                       offer them my best tomatoes"
                     </CardText>
-                    <Link to="/signup"><Button color="danger">Follow</Button></Link>
+                    <Button href="/organic.o/signup" color="danger">
+                      Follow
+                    </Button>
                   </CardBody>
                 </Card>
               </Col>
@@ -98,7 +102,9 @@ export function Testimonials() {
                       "Woohhh! Organic.o has provided all my needs into one
                       place! A great thank to you all, folks!"
                     </CardText>
-                    <Link to="/signup"><Button color="danger">Follow</Button></Link>
+                    <Button href="/organic.o/signup" color="danger">
+                      Follow
+                    </Button>
                   </CardBody>
                 </Card>
               </Col>
@@ -112,13 +118,28 @@ export function Testimonials() {
           <Row>
             <Col>
               <div className="imgSocial">
-                <a href="https://www.twitter.com" target="_blank" rel="noreferrer" id="twitter">
+                <a
+                  href="https://www.twitter.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="twitter"
+                >
                   <img src={Twitter} alt="twitter" />
                 </a>
-                <a href="https://www.facebook.com" target="_blank" rel="noreferrer" id="facebook">
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="facebook"
+                >
                   <img src={Facebook} alt="facebook" />
                 </a>
-                <a href="https://www.instagram.com" target="_blank" rel="noreferrer" id="instagram">
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="instagram"
+                >
                   <img src={Instagram} alt="instagram" />
                 </a>
               </div>

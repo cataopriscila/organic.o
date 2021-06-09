@@ -27,7 +27,7 @@ function Footer({isFixed}) {
         <ul>
           <li>
             <a className='text-muted' 
-              href="/about"
+              href="/organic.o/about"
               target=""
             >
               About
@@ -35,7 +35,7 @@ function Footer({isFixed}) {
           </li>
           <li>
             <a className='text-muted' 
-              href="/about"
+              href="/organic.o/about"
               target=""
             >
               Blog
@@ -43,7 +43,7 @@ function Footer({isFixed}) {
           </li>
           <li>
             <a className='text-muted' 
-              href="/about"
+              href="/organic.o/about"
               target=""
             >
              Help
@@ -51,7 +51,7 @@ function Footer({isFixed}) {
           </li>
           <li>
             <a className='text-muted' 
-              href="/about"
+              href="/organic.o/about"
               target=""
             >
              Privacy

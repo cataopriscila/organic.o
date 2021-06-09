@@ -29,7 +29,7 @@ export function Header() {
         </Row>
         <Row>
           <Col className="padding" md={{ size: "12", offset: 0 }}>
-            <Link to="/signup"><Button color="danger">Join the Community</Button></Link>
+            <Link to="/organic.o/signup"><Button color="danger">Join the Community</Button></Link>
           </Col>
         </Row>
       </Container>

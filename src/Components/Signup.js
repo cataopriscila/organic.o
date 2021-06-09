@@ -66,7 +66,7 @@ export default function Signup() {
                 <CardFooter className="text-center">
                   <Button
                     color="danger"
-                    href="/"                    
+                    href="/organic.o/about"                    
                     size="md"
                   >
                     Get Started

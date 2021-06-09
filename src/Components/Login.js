@@ -52,7 +52,7 @@ export function Login() {
                 <CardFooter className="text-center">
                   <Button 
                   color="danger" 
-                  href="/" 
+                  href="/organic.o/about" 
                   size="md">
                     Let me in
                   </Button>

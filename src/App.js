@@ -11,16 +11,16 @@ function App() {
     <div className="App">
       <NavBar />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/organic.o">
           <HomePage />
         </Route>
-        <Route path="/login">
+        <Route path="/organic.o/login">
           <LoginPage />
         </Route>
-        <Route path="/signup">
+        <Route path="/organic.o/signup">
           <SignupPage />
         </Route>
-        <Route path="/about">
+        <Route path="/organic.o/about">
           <AboutPage />
         </Route>
       </Switch>      
