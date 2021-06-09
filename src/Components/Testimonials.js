@@ -19,6 +19,7 @@ import Profile3 from "../Images/profile3.jpg";
 import Twitter from "../Images/twitter.svg";
 import Facebook from "../Images/facebook.svg";
 import Instagram from "../Images/instagram.svg";
+import { Link } from "react-router-dom";
 
 
 export function Testimonials() {
@@ -52,9 +53,9 @@ export function Testimonials() {
                       "It's an amazing tool that helped me find real fresh food
                       just around the corner!"
                     </CardText>
-                    <Button href="/organic.o/signup" color="danger">
+                    <Link to="/organic.o/signup"><Button color="danger">
                       Follow
-                    </Button>
+                    </Button></Link>
                   </CardBody>
                 </Card>
               </Col>
