@@ -21,7 +21,6 @@ import Facebook from "../Images/facebook.svg";
 import Instagram from "../Images/instagram.svg";
 import { Link } from "react-router-dom";
 
-
 export function Testimonials() {
   return (
     <>
@@ -53,9 +52,9 @@ export function Testimonials() {
                       "It's an amazing tool that helped me find real fresh food
                       just around the corner!"
                     </CardText>
-                    <Link to="/signup"><Button color="danger">
-                      Follow
-                    </Button></Link>
+                    <Link to="/signup">
+                      <Button color="danger">Follow</Button>
+                    </Link>
                   </CardBody>
                 </Card>
               </Col>
@@ -78,9 +77,9 @@ export function Testimonials() {
                       "Now I can communicate directly with the customers and
                       offer them my best tomatoes"
                     </CardText>
-                    <Button href="/signup" color="danger">
-                      Follow
-                    </Button>
+                    <Link to="/signup">
+                      <Button color="danger">Follow</Button>
+                    </Link>
                   </CardBody>
                 </Card>
               </Col>
@@ -103,9 +102,9 @@ export function Testimonials() {
                       "Woohhh! Organic.o has provided all my needs into one
                       place! A great thank to you all, folks!"
                     </CardText>
-                    <Button href="/signup" color="danger">
-                      Follow
-                    </Button>
+                    <Link to="/signup">
+                      <Button color="danger">Follow</Button>
+                    </Link>
                   </CardBody>
                 </Card>
               </Col>

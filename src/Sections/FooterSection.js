@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import Twitter from "../Images/twitter.svg";
 import Facebook from "../Images/facebook.svg";
 import Instagram from "../Images/instagram.svg";
-import Footer from "../Elements/Footer";
+
 
 const FooterSection = () => {
   return (
@@ -67,7 +67,7 @@ const FooterSection = () => {
           </div>
         </div>
       </Container>
-      <Footer isFixed={false} />
+      
     </>
   );
 };

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   Button,
   Card,
@@ -11,7 +12,7 @@ import {
   Container,
   Row,
   CardDeck,
-  Col
+  Col,  
 } from "reactstrap";
 
 export default function Signup() {
@@ -40,37 +41,42 @@ export default function Signup() {
                     <Input
                       invalid
                       className="round"
-                      placeholder="First Name"
+                      placeholder="Full Name"
                       type="text"
                     >
-                      {" "}
+                     
+                    </Input>
+                  </FormGroup>                  
+                  <FormGroup>
+                    <Input
+                      invalid
+                      className="round"
+                      placeholder="Email"
+                      type="email"
+                    >
+
                     </Input>
                   </FormGroup>
                   <FormGroup>
                     <Input
                       invalid
                       className="round"
-                      placeholder="Last Name"
-                      type="text"
-                    ></Input>
-                  </FormGroup>
-                  <FormGroup>
-                    <Input
-                      invalid
-                      className="round"
-                      placeholder="Email"
-                      type="text"
-                    ></Input>
+                      placeholder="Create a Password"
+                      type="password"
+                    >
+                    
+                    </Input>
                   </FormGroup>
                 </CardBody>
                 <CardFooter className="text-center">
-                  <Button
-                    color="danger"
-                    href="/organic.o/about"                    
+                  <Link to="/about">
+                    <Button
+                    color="danger"                                       
                     size="md"
                   >
                     Get Started
                   </Button>
+                  </Link>
                 </CardFooter>
               </Form>
             </Card>

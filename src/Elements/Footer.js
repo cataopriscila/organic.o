@@ -1,71 +1,47 @@
 import React from "react";
-import { Container } from "reactstrap";
+import { Link } from "react-router-dom";
+import { Container, Row } from "reactstrap";
 
-function Footer({isFixed}) {
-  return (
-    isFixed? 
-    (<footer className= "footer fixed">
+function Footer({ isFixed }) {
+  return isFixed ? (
+    <footer className="fixed">
+      <Container>
+        <Row  className="center">
+          <p>© Copyright {new Date().getFullYear()}, Organic.o, All Rights Reserved.</p>
+          
+        </Row>
+      </Container>
+    </footer>
+  ) : (
+    <footer className="footer">
       <Container>
         <nav>
           <ul>
             <li>
-            © Copyright {new Date().getFullYear()}    
+              <Link className="text-muted" to="/about">
+                About
+              </Link>
             </li>
             <li>
-              Organic.o               
+              <Link className="text-muted" to="/about">
+                Blog
+              </Link>
             </li>
-            <li>              
-                All Rights Reserved.              
-            </li>                     
+            <li>
+              <Link className="text-muted" to="/about">
+                Help
+              </Link>
+            </li>
+            <li>
+              <Link className="text-muted" to="/about">
+                Privacy
+              </Link>
+            </li>
+            <li>Organic.o© {new Date().getFullYear()}</li>
           </ul>
-        </nav>        
+        </nav>
       </Container>
-    </footer>) : 
-    (<footer className= "footer">
-    <Container>
-      <nav>
-        <ul>
-          <li>
-            <a className='text-muted' 
-              href="/organic.o/about"
-              target=""
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a className='text-muted' 
-              href="/organic.o/about"
-              target=""
-            >
-              Blog
-            </a>
-          </li>
-          <li>
-            <a className='text-muted' 
-              href="/organic.o/about"
-              target=""
-            >
-             Help
-            </a>
-          </li>
-          <li>
-            <a className='text-muted' 
-              href="/organic.o/about"
-              target=""
-            >
-             Privacy
-            </a>
-          </li>
-          <li>
-          Organic.o© {new Date().getFullYear()}    
-          </li>
-        </ul>
-      </nav>        
-    </Container>
-  </footer>
-
-    )
+    </footer>
   );
 }
 

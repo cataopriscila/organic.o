@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   Button,
   Card,
@@ -50,12 +51,14 @@ export function Login() {
                   </FormGroup>
                 </CardBody>
                 <CardFooter className="text-center">
-                  <Button 
-                  color="danger" 
-                  href="/organic.o/about" 
-                  size="md">
+                <Link to="/about">
+                    <Button
+                    color="danger"                                       
+                    size="md"
+                  >
                     Let me in
                   </Button>
+                  </Link>
                 </CardFooter>
               </Form>
             </Card>
