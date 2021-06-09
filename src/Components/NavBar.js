@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import {
   Collapse,
   Navbar,
@@ -32,7 +33,7 @@ class NavBar extends Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/organic.o/login">Login</NavLink>
+              <Link  to="/login"><NavLink>Login</NavLink></Link>
             </NavItem>
             <NavItem>
               <NavLink href="/organic.o/signup">Sign Up</NavLink>

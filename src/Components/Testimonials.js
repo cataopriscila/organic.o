@@ -53,7 +53,7 @@ export function Testimonials() {
                       "It's an amazing tool that helped me find real fresh food
                       just around the corner!"
                     </CardText>
-                    <Link to="/organic.o/signup"><Button color="danger">
+                    <Link to="/signup"><Button color="danger">
                       Follow
                     </Button></Link>
                   </CardBody>
@@ -78,7 +78,7 @@ export function Testimonials() {
                       "Now I can communicate directly with the customers and
                       offer them my best tomatoes"
                     </CardText>
-                    <Button href="/organic.o/signup" color="danger">
+                    <Button href="/signup" color="danger">
                       Follow
                     </Button>
                   </CardBody>
@@ -103,7 +103,7 @@ export function Testimonials() {
                       "Woohhh! Organic.o has provided all my needs into one
                       place! A great thank to you all, folks!"
                     </CardText>
-                    <Button href="/organic.o/signup" color="danger">
+                    <Button href="/signup" color="danger">
                       Follow
                     </Button>
                   </CardBody>
