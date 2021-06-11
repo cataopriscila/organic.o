@@ -76,13 +76,16 @@ section {
   backdrop-filter: blur(3px);
 }
 
-.padding {
+/*maybe call it space*/
+.padding, .space {
   padding: 2rem;
 }
 
 .imgProfile {
   border-radius: 50%;
 }
+
+
 
 .followUs {
     padding-top: 6rem;    
@@ -135,10 +138,12 @@ section {
   background-color: #8d273e;
   border-color: #8d273e;
 }
-.description p {
-  font-size: 1.4rem;
-}
 
+/*Description Section*/
+.description {
+  margin: 6rem 0;
+  font-size: 1.5rem;
+}
 
 .footer ul {   
   display: flex;

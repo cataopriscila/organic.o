@@ -4,13 +4,13 @@ import Description2 from "../Images/description2.jpg";
 
 export default function Description() {
   return (
-    <div className="padding">
-      <Container className="description padding">
-        <Row className="padding">
-          <Col className="padding">
-            <img width="100%" src={Description2} alt="" />
+    <div className="description justify">
+      <Container>
+        <Row className="space">
+          <Col >
+            <img width="100%" src={Description2} alt="farming" />
           </Col>
-          <Col className="justify padding">
+          <Col>
             <p>
               <strong>Organic.o</strong> is an online social network where
               people can create profiles and write about anything regarding
@@ -23,8 +23,8 @@ export default function Description() {
             </p>
           </Col>
         </Row>
-        <Row className="padding">
-          <Col className="justify padding">
+        <Row>
+          <Col>
             <p>
               At <strong>Organic.o</strong>, you can search by location, product
               or product owner, and you will be connected with people
@@ -36,8 +36,8 @@ export default function Description() {
               Find the best way of bringing everything together in one place!
             </p>
           </Col>
-          <Col className="padding">
-            <img width="80%" src={Description1} alt="" />
+          <Col>
+            <img width="80%" src={Description1} alt="picnic" />
           </Col>
         </Row>
       </Container>

@@ -25,7 +25,7 @@ export function Testimonials() {
   return (
     <>
       <section>
-        <Container className="padding center">
+        <Container className="center">
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <h1 className="padding">Our social media is growing fast!</h1>
