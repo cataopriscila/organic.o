@@ -7,7 +7,7 @@ export default function Description() {
     <div className="description justify">
       <Container>
         <Row className="space">
-          <Col >
+          <Col>
             <img width="100%" src={Description2} alt="farming" />
           </Col>
           <Col>
@@ -23,6 +23,7 @@ export default function Description() {
             </p>
           </Col>
         </Row>
+        <Row className="space"></Row>
         <Row>
           <Col>
             <p>
