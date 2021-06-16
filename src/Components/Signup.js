@@ -12,17 +12,17 @@ import {
   Container,
   Row,
   CardDeck,
-  Col,  
+  Col,
 } from "reactstrap";
 
 export default function Signup() {
   return (
-    <>
-      <Container className="padding">
-        <Row className="padding center">
-        <Col>
+    
+      <Container>
+        <Row className="padding organicoTitle">
+          <Col>
             <h1>Sign Up</h1>
-          </Col>          
+          </Col>
         </Row>
         <Row className="center cardShadow">
           <CardDeck>
@@ -43,19 +43,15 @@ export default function Signup() {
                       className="round"
                       placeholder="Full Name"
                       type="text"
-                    >
-                     
-                    </Input>
-                  </FormGroup>                  
+                    ></Input>
+                  </FormGroup>
                   <FormGroup>
                     <Input
                       invalid
                       className="round"
                       placeholder="Email"
                       type="email"
-                    >
-
-                    </Input>
+                    ></Input>
                   </FormGroup>
                   <FormGroup>
                     <Input
@@ -63,26 +59,29 @@ export default function Signup() {
                       className="round"
                       placeholder="Create a Password"
                       type="password"
-                    >
-                    
-                    </Input>
+                    ></Input>
                   </FormGroup>
                 </CardBody>
                 <CardFooter className="text-center">
                   <Link to="/about">
-                    <Button
-                    color="danger"                                       
-                    size="md"
-                  >
-                    Get Started
-                  </Button>
+                    <Button color="danger" size="md">
+                      Get Started
+                    </Button>
                   </Link>
                 </CardFooter>
               </Form>
             </Card>
           </CardDeck>
         </Row>
+        <Row className="padding">
+          <Col>
+            <h5>Already have an account?</h5>
+            <h6>
+              Log in <Link to="/login">here</Link>
+            </h6>
+          </Col>
+        </Row>
       </Container>
-    </>
+    
   );
 }

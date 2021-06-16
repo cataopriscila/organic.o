@@ -16,16 +16,13 @@ import {
   FormGroup,
 } from "reactstrap";
 
-export function Login() {
+export default function Login() {
   return (
-    <div className="flex1 blur">
-      <Container className="padding">
-        <Row xs="1" lg="1" className="padding center organicoTitle">
+    <div className="blur">
+      <Container>
+        <Row className="padding organicoTitle">
           <Col>
-            <h1>Welcome to</h1>
-          </Col>
-          <Col>
-            <h1>Organic.o</h1>
+            <h1>Welcome!</h1>
           </Col>
         </Row>
         <Row className="center cardShadow">
@@ -51,18 +48,23 @@ export function Login() {
                   </FormGroup>
                 </CardBody>
                 <CardFooter className="text-center">
-                <Link to="/about">
-                    <Button
-                    color="danger"                                       
-                    size="md"
-                  >
-                    Let me in
-                  </Button>
+                  <Link to="/about">
+                    <Button color="danger" size="md">
+                      Let me in
+                    </Button>
                   </Link>
                 </CardFooter>
               </Form>
             </Card>
           </CardDeck>
+        </Row>
+        <Row className="padding">
+          <Col>
+            <h5>No accounts yet?</h5>
+            <h6>
+              Sign up <Link to="/signup">here</Link>
+            </h6>
+          </Col>
         </Row>
       </Container>
     </div>
