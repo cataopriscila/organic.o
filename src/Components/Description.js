@@ -9,7 +9,7 @@ export default function Description() {
         <Row className="space">
           <Col>
             <img width="100%" src={Description2} alt="farming" />
-          </Col>
+          </Col>          
           <Col>
             <p>
               <strong>Organic.o</strong> is an online social network where

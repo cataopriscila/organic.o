@@ -7,7 +7,7 @@ function SignupSection() {
     <section
       className="background center"
       style={{
-        backgroundImage: `url(${Bg4})`,
+        backgroundImage: `url(${Bg4})`,        
         backgroundPosition: "top center",
       }}
     >       
