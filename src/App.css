@@ -97,8 +97,9 @@ section {
 }
 
 .imgSocial img {
-  /*test publishing again and then transform in em*/
-  /*this is a component*/
+  /* test publishing again and then transform in em or icons,
+  cause the invert function might not work with all browsers
+  this is a component */
   width: 5rem;
   height: 5rem;
   background-size: 75rem;

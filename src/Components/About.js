@@ -8,7 +8,7 @@ const About = () => {
         <div className= "padding center flex1">
         <Container className="padding">
            <h1 className="padding organicoTitle">This page is under construction</h1>
-        <img src={UnderConstruction} alt= "gif"/> 
+        <img width= "70%" src={UnderConstruction} alt= "gif"/> 
         </Container>
         
         </div>
