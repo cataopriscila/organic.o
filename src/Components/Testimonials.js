@@ -12,18 +12,16 @@ import {
   CardDeck,
 } from "reactstrap";
 
+import SocialMedia from "./SocialMedia";
+
 import Profile1 from "../Images/profile1.jpg";
 import Profile2 from "../Images/profile2.jpg";
 import Profile3 from "../Images/profile3.jpg";
 
-import Twitter from "../Images/twitter.svg";
-import Facebook from "../Images/facebook.svg";
-import Instagram from "../Images/instagram.svg";
 import { Link } from "react-router-dom";
 
-export function Testimonials() {
-  return (
-    <>
+const Testimonials = () => {
+  return (    
       <section>
         <Container className="center">
           <Row>
@@ -116,37 +114,11 @@ export function Testimonials() {
             </Col>
           </Row>
           <Row>
-            <Col>
-              <div className="imgSocial">
-                <a
-                  href="https://www.twitter.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  id="twitter"
-                >
-                  <img src={Twitter} alt="twitter" />
-                </a>
-                <a
-                  href="https://www.facebook.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  id="facebook"
-                >
-                  <img src={Facebook} alt="facebook" />
-                </a>
-                <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  id="instagram"
-                >
-                  <img src={Instagram} alt="instagram" />
-                </a>
-              </div>
-            </Col>
+            <SocialMedia/>
           </Row>
         </Container>
-      </section>
-    </>
-  );
+      </section>    
+  )
 }
+
+export default Testimonials;

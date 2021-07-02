@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import Twitter from "../Images/twitter.svg";
-import Facebook from "../Images/facebook.svg";
-import Instagram from "../Images/instagram.svg";
+import SocialMedia from "../Components/SocialMedia";
 
 
 const FooterSection = () => {
@@ -39,32 +37,7 @@ const FooterSection = () => {
 
         <div className="padding text-center">
           <h3>Other Medias</h3>
-          <div className="imgSocial">
-            <a
-              href="https://www.twitter.com"
-              target="_blank"
-              rel="noreferrer"
-              id="twitter"
-            >
-              <img src={Twitter} alt="twitter" />
-            </a>
-            <a
-              href="https://www.facebook.com"
-              target="_blank"
-              rel="noreferrer"
-              id="facebook"
-            >
-              <img src={Facebook} alt="facebook" />
-            </a>
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              rel="noreferrer"
-              id="instagram"
-            >
-              <img src={Instagram} alt="instagram" />
-            </a>
-          </div>
+          <SocialMedia/>
         </div>
       </Container>
       

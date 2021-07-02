@@ -42,11 +42,11 @@ section {
 }
 
 .xlarge {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 .large {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .theme-color {
@@ -97,6 +97,8 @@ section {
 }
 
 .imgSocial img {
+  /*test publishing again and then transform in em*/
+  /*this is a component*/
   width: 5rem;
   height: 5rem;
   background-size: 75rem;
