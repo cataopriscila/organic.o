@@ -143,8 +143,23 @@ section {
 /*Description Section*/
 .description {
   margin: 6rem 0;
-  font-size: 1.5rem;
+  font-size: 1.5rem;  
 }
+
+.description p {
+  margin: 3rem;
+}
+
+.description-img1 {
+margin: 3rem;
+float: left;
+}
+
+.description-img2 {
+  margin: 3rem;
+  float: right;
+  }
+
 
 .footer ul {   
   display: flex;
