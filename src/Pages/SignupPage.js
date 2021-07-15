@@ -1,7 +1,7 @@
 import Footer from "../Elements/Footer";
 import SignupSection from "../Sections/SignupSection";
 
-export function SignupPage() {
+function SignupPage() {
   return (
     <>
       <SignupSection />
@@ -9,3 +9,5 @@ export function SignupPage() {
     </>
   );
 }
+
+export default SignupPage;

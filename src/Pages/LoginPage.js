@@ -1,7 +1,7 @@
 import Footer from "../Elements/Footer";
 import { LoginSection } from "../Sections/LoginSection";
 
-export function LoginPage () {
+function LoginPage () {
     return (
         <>         
         <LoginSection/>
@@ -9,4 +9,6 @@ export function LoginPage () {
         </>         
     )
 }
+
+export default LoginPage;
 

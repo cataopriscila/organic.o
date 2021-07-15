@@ -179,3 +179,21 @@ float: left;
   text-shadow: 1px 1px 2px black;*/
   background-color: rgba(255, 235, 205, 0.199);
 }
+
+.profile {
+  background-color: aquamarine;
+}
+
+.ads {
+  
+  max-width: 25vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ads iframe {
+  min-height: 20vh;
+}
+
