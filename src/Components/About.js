@@ -9,8 +9,7 @@ const About = () => {
         <Container className="padding">
            <h1 className="padding organicoTitle">This page is under construction</h1>
         <img width= "70%" src={UnderConstruction} alt= "gif"/> 
-        </Container>
-        
+        </Container>        
         </div>
         </section>
         

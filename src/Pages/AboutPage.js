@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <>
       <About />
-      <Footer isFixed={true} />
+      <Footer isFixed={false} />
     </>
   );
 };
