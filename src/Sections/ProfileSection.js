@@ -6,7 +6,7 @@ const ProfileSection = () => {
         <section
       className="background center"
       style={{
-        backgroundImage: "linear-gradient(#8d273e, #FFF)",
+        backgroundImage: "linear-gradient(#F2F2F2, #FFF)",
         
       }}
     >

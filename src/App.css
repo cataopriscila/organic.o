@@ -182,11 +182,12 @@ float: left;
 
 .profile {
   background-color: aquamarine;
+  padding: 7rem;
 }
 
 .ads {
-  
-  max-width: 25vw;
+  background-image: linear-gradient(#FFF 0%, #8d273e 50%, #FFF 100%);
+  max-width: 15vw;
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -194,6 +195,19 @@ float: left;
 }
 
 .ads iframe {
-  min-height: 20vh;
+  min-height: 25vh;
+  border: none; 
+  
+}
+
+.menu {
+  background-color: grey;
+  max-width: 15vw;
+  padding: 3rem;  
+}
+
+.menu h2 {  
+  border-bottom: 3px solid white;
+  margin-bottom: 2rem;
 }
 
