@@ -7,7 +7,7 @@ const Profile = () => {
         <Container className="menu">
             <Row>
                 <Col>
-                <h2>menu</h2>
+                <h2>MENU</h2>
                 </Col>                
             </Row>
             <Row>

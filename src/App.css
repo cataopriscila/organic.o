@@ -183,6 +183,7 @@ float: left;
 .profile {
   background-color: aquamarine;
   padding: 7rem;
+  height: 80vh;
 }
 
 .ads {
@@ -201,13 +202,20 @@ float: left;
 }
 
 .menu {
-  background-color: grey;
+  
   max-width: 15vw;
-  padding: 3rem;  
+  padding: 3rem; 
+
 }
 
 .menu h2 {  
-  border-bottom: 3px solid white;
-  margin-bottom: 2rem;
+  border-bottom: 3px solid #8d273e;
+  margin-bottom: 2.5rem;
+  border-bottom-width: .3rem;
+}
+
+.menu h4 {  
+  border-bottom: 1px solid #8d273e;  
+  margin-bottom: 1.5rem;
 }
 
