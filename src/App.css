@@ -68,14 +68,18 @@ section {
 
 .cardShadow .card {
   box-shadow: 20px 20px 50px 2px grey;
+  transition: transform .6s;
 }
 
+.cardShadow .card:hover {
+  transform: scale(1.05);
+}
 .blur {
   background: transparent;
   backdrop-filter: blur(3px);
 }
 
-/*maybe call it space*/
+
 .padding, .space {
   padding: 2rem;
 }
@@ -96,10 +100,7 @@ section {
   align-items: center;
 }
 
-.imgSocial img {
-  /* test publishing again and then transform in em or icons,
-  cause the invert function might not work with all browsers
-  this is a component */
+.imgSocial img {  
   width: 5rem;
   height: 5rem;
   background-size: 75rem;
