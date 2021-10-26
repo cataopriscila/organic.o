@@ -5,7 +5,7 @@ function LoginPage () {
     return (
         <>         
         <LoginSection/>
-        <Footer isFixed= {true}/>
+        <Footer isFixed= {false}/>
         </>         
     )
 }

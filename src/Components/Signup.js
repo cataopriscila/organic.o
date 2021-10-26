@@ -19,7 +19,7 @@ export default function Signup() {
   return (
     
       <Container>
-        <Row className="padding organicoTitle">
+        <Row className="marginTop padding organicoTitle">
           <Col>
             <h1>Sign Up</h1>
           </Col>

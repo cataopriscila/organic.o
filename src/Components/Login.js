@@ -20,7 +20,7 @@ export default function Login() {
   return (
     <div className="blur">
       <Container>
-        <Row className="padding organicoTitle">
+        <Row className="marginTop padding organicoTitle">
           <Col>
             <h1>Welcome!</h1>
           </Col>

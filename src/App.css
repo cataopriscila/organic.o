@@ -29,6 +29,10 @@ section {
   text-align: justify;
 }
 
+.marginTop {
+  margin-top: 4rem;
+}
+
 .background {  
   background-size: cover;
   background-position: center center;
